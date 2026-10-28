@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Shuayeb Hossain",
     designation: "Full Stack Web Developer",
     tagline: "Building sleek, responsive, and performance-driven web applications with modern web technologies.",
-    heroBio: "Undergraduate student at the University of Dhaka passionate about full-stack engineering, React ecosystems, and solving real-world challenges through elegant code.",
+    heroBio: "Undergraduate student in Computer Science & Engineering (B.Sc. in CSE) at the University of Dhaka passionate about full-stack engineering, React ecosystems, and solving real-world challenges through elegant code.",
     avatarUrl: "/profile.jpg",
     resumeUrl: "/resume.pdf",
     location: "Dhaka, Bangladesh",
@@ -18,7 +18,7 @@ export const portfolioData = {
   },
 
   aboutMe: {
-    journey: "My programming journey started with a genuine fascination for building things that live on the internet. As a student at the University of Dhaka, I have immersed myself in modern web architecture, responsive UI design, and JavaScript ecosystems, constantly pushing myself to write cleaner, more maintainable code.",
+    journey: "My programming journey started with a genuine fascination for building things that live on the internet. As a Computer Science & Engineering (B.Sc. in CSE) student at the University of Dhaka, I have immersed myself in modern web architecture, responsive UI design, and JavaScript ecosystems, constantly pushing myself to write cleaner, more maintainable code.",
     workEnjoyed: "I enjoy architecting intuitive React frontends, designing seamless user experiences with Tailwind CSS, and connecting robust backend APIs. Transforming complex problems into simple, elegant digital interfaces is what drives me every day.",
     hobbies: [
       { name: "Tech & Innovation", icon: "Activity", desc: "Exploring emerging web tools, open-source libraries, and modern frontend frameworks." },
@@ -58,16 +58,16 @@ export const portfolioData = {
 
   education: [
     {
-      degree: "Bachelor of Science (B.Sc.) - 3rd Year (1st Semester)",
+      degree: "B.Sc. in Computer Science & Engineering (B.Sc. in CSE) - 3rd Year",
       institution: "Dhaka University (University of Dhaka)",
       period: "Currently Running (3rd Year, 1st Semester)",
       grade: "CGPA: 3.53",
-      description: "Pursuing undergraduate degree at the University of Dhaka. Actively focused on software development, algorithmic problem solving, database management, and building high-performance modern web applications.",
+      description: "Pursuing undergraduate degree in Computer Science and Engineering (CSE) at the University of Dhaka. Actively focused on software engineering, data structures, algorithms, database management systems, and modern full-stack web applications.",
       highlights: [
+        "Major: Computer Science & Engineering (CSE)",
         "Current CGPA: 3.53",
         "Running: 3rd Year 1st Semester",
-        "Dhaka University",
-        "Strong focus on Full Stack Web Technologies"
+        "University of Dhaka"
       ]
     },
     {

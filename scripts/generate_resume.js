@@ -99,7 +99,7 @@ async function generateResume() {
 
   // --- 2. PROFESSIONAL SUMMARY ---
   drawSectionHeader('Professional Summary');
-  const summary = 'Dedicated Computer Science undergraduate at the University of Dhaka (CGPA: 3.53) with proven expertise in building modern, responsive, and performance-optimized full-stack web applications. Skilled in React.js, modern JavaScript (ES6+), Tailwind CSS, Node.js, and RESTful architectures. Passionate about writing clean, maintainable code and translating complex user requirements into delightful digital experiences.';
+  const summary = 'Dedicated Computer Science & Engineering (B.Sc. in CSE) undergraduate at the University of Dhaka (CGPA: 3.53) with proven expertise in building modern, responsive, and performance-optimized full-stack web applications. Skilled in React.js, modern JavaScript (ES6+), Tailwind CSS, Node.js, and RESTful architectures. Passionate about writing clean, maintainable code and translating complex user requirements into delightful digital experiences.';
   
   // Wrap summary text
   const words = summary.split(' ');
@@ -221,15 +221,15 @@ async function generateResume() {
   // --- 5. EDUCATION ---
   drawSectionHeader('Education');
 
-  // Degree 1: B.Sc.
+  // Degree 1: B.Sc. in CSE
   page.drawText('University of Dhaka (Dhaka University)', { x: marginX, y: currentY, size: 9.5, font: fontBold, color: colorPrimary });
   const bscPeriod = '2023 - Present (3rd Year, 1st Semester)';
   const bscPeriodWidth = fontBold.widthOfTextAtSize(bscPeriod, 8.5);
   page.drawText(bscPeriod, { x: width - marginX - bscPeriodWidth, y: currentY, size: 8.5, font: fontBold, color: colorMuted });
   currentY -= 11;
 
-  page.drawText('Bachelor of Science (B.Sc.)', { x: marginX, y: currentY, size: 8.5, font: fontBold, color: colorAccent });
-  page.drawText('  |  Current CGPA: 3.53 / 4.00', { x: marginX + fontBold.widthOfTextAtSize('Bachelor of Science (B.Sc.)', 8.5), y: currentY, size: 8.5, font: fontRegular, color: colorBody });
+  page.drawText('B.Sc. in Computer Science & Engineering (CSE)', { x: marginX, y: currentY, size: 8.5, font: fontBold, color: colorAccent });
+  page.drawText('  |  Current CGPA: 3.53 / 4.00', { x: marginX + fontBold.widthOfTextAtSize('B.Sc. in Computer Science & Engineering (CSE)', 8.5), y: currentY, size: 8.5, font: fontRegular, color: colorBody });
   currentY -= 10;
 
   const eduCoursework = 'Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Systems, Web Architectures, Software Engineering.';
@@ -254,3 +254,4 @@ async function generateResume() {
 }
 
 generateResume().catch(console.error);
+
